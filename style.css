@@ -6,3 +6,12 @@ body{
 .name-highlight{
     color: orange;
 }
+.Intro{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+
+.Intro img{
+    width: 100%;
+}
