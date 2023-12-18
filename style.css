@@ -4,13 +4,20 @@ body{
     
 }
 h1{
-    font-weight: 50px;
+    font-size: 40px;
+    font-weight: 700;
 }
 h2{
-    font-weight: 40px;
+    
+    font-size: 30px;
+    font-weight: 700;
 }
 h3{
-    font-weight: 30px;
+    
+    font-weight: 700;
+}
+p{
+    color: dimgrey;
 }
 .name-highlight{
     color: orange;
@@ -42,4 +49,37 @@ h3{
 
 .dream-img img{
     width: 100%;
+}
+.dream-area{
+    height: 500px;
+    background-image: url(Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 150px;
+}
+.experience-section{
+    height: 500px;
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px grey;
+    height: 60%;
+    padding: 20px;
+    background-color: white;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    font-size: 12px;
+    text-align: center;
 }
